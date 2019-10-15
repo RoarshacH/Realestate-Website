@@ -1,0 +1,686 @@
+
+*{
+  font-family: sans-serif;
+}
+.top{
+  height: 32px;
+  background-color: #34495e;
+  color: white;
+  position: relative;
+
+}
+.top div p{
+  margin-top: 5px;
+}
+.top div p i{
+  cursor: pointer;
+  transition: .5s;
+}
+.top div p i:hover{
+  transform: scale(1.3);
+}
+.top div p a{
+  color: white;
+  text-decoration: none;
+
+}
+.top div p a:hover{
+  text-decoration: none;
+  color: silver;
+  cursor: pointer;
+}
+
+.top_logo{
+  position: absolute;
+  width: 140px;
+  height: 70px;
+  top: 5px;
+  left:10%;
+
+
+}
+@media only screen and (max-width: 668px){
+
+  .banner1{
+
+      margin: auto;
+      width:100%;
+      height:460px;
+      background-image: url("../img/banner12.jpg")!important;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+
+
+  }
+  .banner2{
+
+      margin: auto;
+      width:100%;
+      height:460px;
+      background-image: url("../img/b4.jpg")!important;
+      background-repeat: no-repeat;
+
+      background-size: cover;
+
+
+  }
+
+
+
+
+}
+@media only screen and (min-width: 668px){
+  .banner1{
+
+      margin: auto;
+      width:100%;
+      height:460px;
+      background-image: url("../img/banner12.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+
+  }
+  .banner2{
+
+      margin: auto;
+      width:100%;
+      height:460px;
+      background-image: url("../img/b4.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+
+  }
+
+}
+
+
+
+/*end of banner formatting*/
+
+.txt_box{
+  background-color: #fff;
+  opacity: .6;
+  position: relative;
+  top: 35%;
+}
+.navigation{
+  position: relative;
+  top: -55px;
+  opacity: .8;
+  font-size: 16px;
+
+
+
+}
+.logo_MY{
+  margin-top: -10px;
+  height: 80px;
+  width: 150px;
+}
+.navigation_item li{
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+/*End of navigation formatting*/
+.body_text{
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 23px;
+}
+.Intro_text{
+  position: relative;
+  top: -30px;
+
+}
+/*End of Intro Text*/
+.custom_card{
+  padding: 0px;
+  margin-bottom: 40px;
+
+}
+.price_btn{
+  position: relative;
+  top: -40px;
+  opacity: .9;
+  width :170px;
+  text-align: center;
+  color: green;
+
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  transition: .5s;
+  border-radius: 0px;
+}
+.price_btn:hover{
+  background-color: white;
+  border:none;
+  color: green;
+}
+
+}
+.card_image{
+  height: 250px!important;
+
+
+}
+.details_btn{
+  position: relative;
+  top: 40px;
+  background-color: green;
+  border: none;
+  transition: .5s;
+  border-radius: 0px;
+}
+.card_text{
+  text-align: left;
+
+
+
+}
+.card_text li{
+  list-style: none;
+  display: inline-block;
+}
+.fas{
+  margin-right: 5px!important ;
+
+
+}
+.sub_topic{
+  text-align: left;
+}
+.card_topic{
+  position: relative;
+  margin-top: -30px;
+}
+/*end of card formattrings*/
+.my_form{
+  margin: 20px;
+  line-height: 28px;
+  color: green;
+  font-size: 16px;
+}
+.my_form input{
+  border: 1px solid green;
+}
+.my_form button{
+  margin-top: 5px;
+  width: 100px;
+  height: 30px;
+  color: green;
+  background-color: white;
+  border: 1px solid green;
+  transition: .5s;
+
+
+}
+.my_form button:hover{
+  cursor: pointer;
+  background-color: green;
+  border: 1px solid white;
+  color: white;
+}
+/*end of form Sign in formatting*/
+.topic1{
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.topic2{
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+.news_card{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+.news_card p{
+  font-size: 14px;
+  line-height: 22px;
+}
+.News_img{
+  width: 100%;
+}
+.news_btn{
+  border-radius: 0px;
+  height: 45px;
+  margin-top: 35%;
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  text-align: center;
+  line-height: 30px;
+}
+.news_btn:hover{
+  background-color: green;
+  border: 1px solid white;
+  color: white;
+}
+/*  End Of news Formatting*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 668px) {
+  .chat_head{
+    height: 40px;
+    background-color: #24723a;
+    margin-top: 20px;
+    color: white;
+    margin-left: 30px;
+    width: 240px;;
+  }
+
+  .chat_body iframe{
+      padding: 0px;
+      margin-left: 15px;
+      width: 240px;;
+      height: 400px;
+    }
+
+}
+
+
+@media only screen and (min-width: 668px) {
+  .chat_head{
+    height: 40px;
+    background-color: #24723a;
+    margin-top: 50px;
+    color: white;
+    margin-left: 30px;
+    width: 100%;
+
+
+              }
+  .chat_body iframe{
+    padding: 0px;
+    margin-left: 15px;
+    width: 95%;
+    height: 550px;
+
+              }
+
+
+}
+/* End of media querry chat*/
+
+
+.chat_head h6{
+  font-size: 20px;
+  line-height: 39px;
+}
+
+
+
+}
+.chat_body iframe{
+  padding: 0px;
+  margin-left: 15px;;
+}
+
+
+
+
+
+/*  End of chat Formatting*/
+@media only screen and (max-width: 668px){
+  .footer_my{
+    font-size: 12px;
+    background-color: #2d352d;
+    color: #fff;
+    width: 100%!important;
+    position: relative;
+    top: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+    .footer_box{
+      border-bottom: 1px solid white ;
+      border-right: none!important;
+    }
+    .footer_box h5{
+      margin-top: 20px!important;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .footer_box h6{
+      margin-top: -7px;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .contacts{
+        margin-top: -50px;
+        font-size: 1.3em!important;
+        width: 30px;
+        text-align: center;
+        transition: .5s;}
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 768px){
+  .footer_box{
+    border-right: 1px solid white;
+  }
+  .map_:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+
+
+
+
+
+}
+/* END OF FOOTER MEDIA QUERRY */
+
+
+.footer_my{
+  font-size: 12px;
+  background-color: #2d352d;
+  color: #fff;
+  width: 100%!important;
+
+  position: relative;
+  top: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+}
+
+.my_link{
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.footer_box{
+  border-right: 1px solid white;
+
+}
+.footer_box h5{
+  margin-top: 70px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer_box h6{
+  margin-top: -7px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.Logo_1{
+  width: 250px;
+  margin-top: 20px;;
+  margin-bottom: -20px;
+
+}
+.contacts{
+  margin-top: -50px;
+  font-size: 2.0em;
+  width: 30px;
+  text-align: center;
+  transition: .5s;
+
+}
+.contacts:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.map_{
+  width: 97%;
+  transition: .4s;
+}
+
+/*  End of footer formatting*/
+
+
+
+
+/* Sign_up page */
+.form-control{
+  		height: 40px;
+  		box-shadow: none;
+  		color: #969fa4;
+	}
+	.form-control:focus{
+		  border-color: #5cb85c;
+	}
+    .form-control, .btn{
+      border-radius: 1px;
+      transition: .5s;
+
+    }
+  .regis_btn:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+  }
+	.signup-form{
+  		width: 400px;
+  		margin: 0 auto;
+  		padding: 30px 0;
+	}
+	.signup-form h2{
+  		color: #636363;
+      margin: 0 0 15px;
+  		position: relative;
+  		text-align: center;
+    }
+	.signup-form h2:before, .signup-form h2:after{
+  		content: "";
+  		height: 2px;
+  		width: 30%;
+  		background: #d4d4d4;
+  		position: absolute;
+  		top: 50%;
+
+	}
+	.signup-form h2:before{
+		  left: 0;
+	}
+	.signup-form h2:after{
+		  right: 0;
+	}
+    .signup-form .hint-text{
+  		color: #999;
+  		margin-bottom: 30px;
+  		text-align: center;
+	}
+    .signup-form form{
+  		color: #999;
+  		border-radius: 1px;
+      margin-bottom: 15px;
+      background: #f2f3f7;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+    }
+	.signup-form .form-group{
+		  margin-bottom: 20px;
+	}
+	.signup-form input[type="checkbox"]{
+		  margin-top: 1px;
+	}
+	.signup-form .btn{
+      font-size: 16px;
+      font-weight: bold;
+		  min-width: 140px;
+      outline: none !important;
+    }
+
+	}
+    .signup-form a{
+  		color: #fff;
+  		text-decoration: underline;
+	}
+    .signup-form a:hover{
+		  text-decoration: none;
+	}
+	.signup-form form a{
+		  color: #5cb85c;
+		  text-decoration: none;
+	}
+	.signup-form form a:hover{
+		  text-decoration: underline;
+	}
+/* End OF SIgn Up Page */
+
+
+/* TErms Page */
+.terms p{
+  margin-left: 30px;
+  text-align: justify;
+  line-height: 25px;
+}
+.terms ol li{
+  margin-left: 30px;
+}
+
+/* End Of terms page */
+
+
+
+/* About US */
+.ceo_msg{
+  margin-bottom: 40px;
+  padding:10px;
+  margin-top: 30px;
+  line-height: 26px;
+}
+.ceo_msg div div div h6{
+  position: relative;
+  margin-top: 70px;
+}
+.abt_img{
+  width: 100%;
+}
+
+
+/* End OF About US */
+
+
+/* Start OF Gallery */
+.feilds_se{
+  position: relative;
+  top:-30px;
+}
+.Se_body{
+  /* background-image:url(../img/bac_se2.jpg) ; */
+  background-color: #24723a;
+  opacity: .9;
+  color: white;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 100%;
+
+
+}
+.Se_body form ul li{
+  list-style: none;
+  line-height: 30px;
+  display: inline-block;
+
+
+}
+.Se_body form ul li input{
+  width: 240px;
+  height: 38px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.Se_body form ul li div ul li{
+  width: 210px;
+  color: green;
+}
+
+.title{
+  background-color: #24723a;
+  height: 40px;
+  font-size: 19px;
+  opacity: .9;
+  color: white;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.title hr{
+  color: white;
+
+  background-color: white;
+}
+.chose_Loc{
+  background-color: white;
+  width: 240px;
+}
+.line div input{
+  width: 110px;
+  border-radius: 2px;
+  border: none;
+}
+
+
+
+.sub_btn{
+  width: 120px;
+  align-items: center;
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  margin-left: 40px;
+}
+.sub_btn:hover{
+  cursor: pointer;
+  background-color: #677266!important;
+  color:white;
+  border: 1px solid white;
+}
+.sub_btn:focus{
+  background-color: white;
+}
+.more{
+  height: 880px;
+
+}
+
+.more img{
+  height: 280px;
+}
+.details1_btn{
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 860px;
+  background-color: green;
+  border: none;
+  transition: .5s;
+  border-radius: 0px;
+}
+.details1_btn:hover{
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+}
+
+.bottom_nav li a{
+  color: green;
+
+}
+
+
+/* End OF Gallery */
